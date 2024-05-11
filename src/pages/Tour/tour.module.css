@@ -1,0 +1,60 @@
+.wrapper{
+    background-image: url(/src/assets/background2.png);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+.container{
+    text-align: center;
+    max-width: 430px;
+    margin-left: 10px;
+    display: block;
+}
+
+.header{
+    padding-top: 92px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 0px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.header img{
+    margin: 0;
+    width: 54px;
+    height: 58px;
+}
+
+.header h1{
+    font-size: 40px;
+}
+
+.optionContainer{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: #123464 1px solid;
+    padding-bottom: 12px;
+}
+
+.optionContainer p{
+    margin: 0;
+}
+
+.optionContainer strong{
+    margin: 0;
+    color: #FFE924;
+}
+
+.drop{
+    position: relative;
+    width: 276px;
+    color: #828282;
+    text-align: left;
+    border-radius: 8px;
+    height: 53px;
+    margin-bottom: 388px;
+}
+

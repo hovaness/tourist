@@ -1,0 +1,16 @@
+<svg width="20.000000" height="20.000000" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip19_870">
+			<rect id="Icon/Chevron_Right" width="20.000000" height="20.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<g opacity="0.500000">
+		<rect id="Icon/Chevron_Right" width="20.000000" height="20.000000" fill="#FFFFFF" fill-opacity="0"/>
+		<g clip-path="url(#clip19_870)">
+			<path id="Vector" d="M14.71 15.1L14 14.38L18.56 10.03L14 5.67L14.71 4.95L20 10.03L14.71 15.1Z" fill="#000000" fill-opacity="0.900000" fill-rule="evenodd"/>
+		</g>
+	</g>
+</svg>
