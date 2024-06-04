@@ -1,0 +1,8 @@
+{
+    "builds": [
+      {
+        "src": "/subscriber",
+        "use": "@vercel/build-react"
+      }
+    ]
+  }
