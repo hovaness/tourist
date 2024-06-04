@@ -1,4 +1,5 @@
 import { Carousel } from 'antd';
+import Logo from 'components/Logo/Logo';
 import LogoWithNav from 'components/LogoWithNav/LogoWithNav';
 import NavButton from 'components/NavButton/NavButton';
 import Player from 'components/Player/Player';
@@ -22,10 +23,10 @@ function Excurtion() {
     return (
         <>
             <div className={styles.wrapper}>
-
-                <div className={styles.container}>
-                    <h1>{currExc.name}</h1>
-                </div>
+            <div className={styles.container}>
+                <h1>{currExc.name}</h1>
+            </div>
+                
                 <Carousel style={{ marginBottom: 100 }} arrows dotPosition="left" infinite={false}>
                     <div>
                         <h3 style={contentStyle}>
@@ -43,9 +44,9 @@ function Excurtion() {
                     </div>
                 </Carousel>
                 <div className={styles.container}>
-                    <img src='/src/assets/player.svg'/>
+                    <audio className={styles.player} controls  src='/src/assets/night.mp3'></audio>
                 </div>
-                <img />
+                <Logo/>
                 <NavButton />
             </div>
         </>

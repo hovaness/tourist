@@ -54,7 +54,7 @@ function Welcome() {
         <Link to={'/tours/smolenskaya'}>
           <div className={styles.optionContainer}>
             <p>Смоленская</p>
-            <strong>По подписку</strong>
+            <strong>По подпискe</strong>
           </div>
         </Link>
         </>
@@ -66,7 +66,7 @@ function Welcome() {
         <Link to={'/tours/tverskaya'}>
           <div className={styles.optionContainer}>
             <p>Тверская</p>
-            <strong>По подписку</strong>
+            <strong>По подпискe</strong>
           </div>
         </Link>
         </>
@@ -78,7 +78,7 @@ function Welcome() {
         <Link to={'/tours/teatralnaya'}>
           <div className={styles.optionContainer}>
             <p>Театральная</p>
-            <strong>По подписку</strong>
+            <strong>По подпискe</strong>
           </div>
         </Link>
         </>
@@ -90,7 +90,7 @@ function Welcome() {
         <Link to={'/tours/prudi'}>
           <div className={styles.optionContainer}>
             <p>Чистые пруды</p>
-            <strong>По подписку</strong>
+            <strong>По подпискe</strong>
           </div>
         </Link>
         </>
@@ -99,11 +99,9 @@ function Welcome() {
   ];
   
 
-  const [currStation, setCurrStaion] = useState("");
 
   const onChange = (value) => {
     console.log(value);
-    setCurrStaion(value);
   };
   const onSearch = (value) => {
     console.log("search:", value);
@@ -127,7 +125,8 @@ function Welcome() {
           options={items}
         />
       </div>
-      <LogoWithNav/>
+      <Logo/>
+      <NavButton/>
     </div>
   );
 }

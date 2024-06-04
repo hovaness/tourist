@@ -4,6 +4,8 @@ import styles from 'pages/Tour/tour.module.css'
 import { Select } from 'antd';
 import { Link } from "react-router-dom";
 import LogoWithNav from 'components/LogoWithNav/LogoWithNav';
+import Logo from 'components/Logo/Logo';
+import NavButton from 'components/NavButton/NavButton';
 
 function Tour() {
   let {tourId} = useParams();
@@ -34,8 +36,9 @@ function Tour() {
           optionFilterProp="children"
           options={tourItemList}
         />
+      <Logo/>
+      <NavButton/>
       </div>
-      <LogoWithNav/>
       <Outlet/>
     </div>
   )
