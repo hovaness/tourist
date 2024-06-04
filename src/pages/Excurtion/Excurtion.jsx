@@ -1,3 +1,4 @@
+import LogoWithNav from 'components/LogoWithNav/LogoWithNav';
 import NavButton from 'components/NavButton/NavButton';
 import tours from 'data';
 import styles from 'pages/Excurtion/exucrtion.module.css'
@@ -39,10 +40,10 @@ function Excurtion() {
                 ))}
             </div>
         </div>
-            <div className={styles.container}>
-            <img src='/src/assets/player.svg'/>
+        <div className={styles.container}>
+            <audio style={{marginBottom:'160px'}} controls src="/src/assets/excurtion.mp3"></audio>
         </div>
-        <NavButton/>
+        <LogoWithNav/>
 </>
 
 )
