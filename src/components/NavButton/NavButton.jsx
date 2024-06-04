@@ -6,11 +6,11 @@ function NavButton() {
     <div className={styles.container}>
         <div className={styles.content}>
           <Link to="/">
-            <img src='../../assets/location.png'/>
+            <img src={'/subscriber/assets/location.png'}/>
           </Link>
-          <img src='../../assets/line.png'/>
+          <img src={'/subscriber/assets/line.png'}/>
           <Link to="/profile">
-            <img src='../../assets/user.png'/>
+            <img src={'/subscriber/assets/user.png'}/>
           </Link>
         </div>
     </div>
